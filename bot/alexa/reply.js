@@ -1,0 +1,5 @@
+'use strict';
+
+module.exports = function alexaReply(botResponse, botName,response) {
+    response.status(200).json(botResponse)
+};
